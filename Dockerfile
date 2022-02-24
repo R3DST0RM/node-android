@@ -14,4 +14,4 @@ RUN unzip commandlinetools-linux-8092744_latest.zip -d cmdline-tools
 RUN mv cmdline-tools $ANDROID_HOME/
 ENV PATH=$ANDROID_HOME/cmdline-tools/cmdline-tools/bin:$PATH
 
-RUN sdkmanager "platform-tools" "platforms;android-29"
+RUN yes | sdkmanager "platform-tools" "platforms;android-29"
