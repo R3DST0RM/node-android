@@ -1,4 +1,4 @@
-# Docker Container with Node and Android Sdk
+# Docker Container with NodeJS and Android Sdk
 
 An Ubuntu docker container with NodeJS and Android Sdk to help you build your react native applications using CI/CD.
 
